@@ -1,9 +1,10 @@
-<h1 align="center">FunPay Vertex</h1>
+<h1 align="center">Форк [FunPay Vertex]()</h1>
 <h4 align="center">Простой и эффективный бот для автоматизации FunPay</h4>
+<h4 align="center">Завернул его в докер, к разработке отношения не имею</h4>
 
 <h1 align="center">
     <img src="https://i.ibb.co/Sc5mL1G/Screenshot-141.png">
-</h>
+</h1>
 
 <h2 align="center">Перед началом настоятельно рекомендую залететь в наш <a href="https://t.me/funpayplace">Telegram чат</a> и <a href="https://dsc.gg/funpay">Discord сервер</a>. Тут и поможем чем сможем и посидеть можно.</h2>
 
@@ -21,6 +22,7 @@
 - [Установка](#arrow_down-установка)
   - [Windows](#large_blue_diamond-windows)
   - [Linux (Ubuntu)](#hotsprings-linux-ubuntu)
+  - [Docker](#whale-docker)
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
 - [Мне нужна помощь](#question-мне-нужна-помощь)
 - [Понравилось приложение?](#tada-Понравилось-приложение)
@@ -93,6 +95,22 @@
 2. Следуйте инструкциям установщика.
 
 Данный скрипт автоматически установит всё необходимое и запустит бота как фоновый процесс.
+
+### :whale: Docker
+Для запуск понадобится: `docker`, `docker-compose`, `make`
+
+Сборка образа
+```bash
+make build
+```
+Первичная настройка конфигов
+```bash
+make setup
+```
+Запуск
+```bash
+make up
+```
 
 ## :hammer_and_wrench: Настройка конфигов
 
