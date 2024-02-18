@@ -1,6 +1,6 @@
-<h2 align="center">Форк [FunPay Vertex](https://github.com/NightStrang6r/FunPayVertex)</h2>
-<h3 align="center">Простой и эффективный бот для автоматизации FunPay</h3>
-<h4 align="center">Завернул его в докер, к разработке отношения не имею</h4>
+# Форк [FunPay Vertex](https://github.com/NightStrang6r/FunPayVertex)
+#### Простой и эффективный бот для автоматизации FunPay</h3>
+##### Завернул его в докер, к разработке отношения не имею</h4>
 
 <h1 align="center">
     <img src="https://i.ibb.co/Sc5mL1G/Screenshot-141.png">
