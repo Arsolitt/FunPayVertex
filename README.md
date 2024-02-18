@@ -1,4 +1,4 @@
-<h1 align="center">Форк [FunPay Vertex]()</h1>
+<h1 align="center">Форк [FunPay Vertex](https://github.com/NightStrang6r/FunPayVertex)</h1>
 <h4 align="center">Простой и эффективный бот для автоматизации FunPay</h4>
 <h4 align="center">Завернул его в докер, к разработке отношения не имею</h4>
 
