@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: funpayvortex_app
+    container_name: funpayvortex_app
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    volumes:
+      - "./:/home/app/"

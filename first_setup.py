@@ -90,7 +90,7 @@ def create_configs():
         with open("configs/auto_response.cfg", "w", encoding="utf-8"):
             ...
 
-    if not os.path.exists("configs/auto_response.cfg"):
+    if not os.path.exists("configs/auto_delivery.cfg"):
         with open("configs/auto_delivery.cfg", "w", encoding="utf-8"):
             ...
 
